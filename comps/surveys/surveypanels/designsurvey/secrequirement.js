@@ -1,183 +1,183 @@
 const secrequirement = () => {return ({
     "type": "panel",
-    "name": "Security Requirements",
+    "name": "Requisitos de Segurança",
     "elements": [
       {
         "type": "radiogroup",
         "id": "645207bf33584cc6a535e42bae7667c9",
-        "title": "Do project teams specify security requirements during development?",
+        "title": "Os times dos projetos especificam requisitos de segurança durante o desenvolvimento?",
         "titleLocation": "left",
-        "description": "Teams derive security requirements from functional requirements and customer or organization concerns",
+        "description": "Os times derivam os requisitos de segurança dos requisitos funcionais e das preocupações dos clientes e da organização",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "2d458a65858c48af94f25f9858bd8ed7",
-        "title": "Do you define, structure, and include prioritization in the artifacts of the security requirements gathering process?",
+        "title": "Vocês definem, estruturam e priorizam os artefatos do processo de levantamento de requisitos de segurança?",
         "titleLocation": "left",
-        "description": "Security requirements take into consideration domain specific knowledge when applying policies and guidance to product development",
+        "description": "Os requisitos de segurança levam em consideração conhecimentos específicos do domínio ao aplicar políticas e guiar o desenvolvimento do produto",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "dad421c501994b0fa2b2ab94ffe61176",
-        "title": "Do you use a standard requirements framework to streamline the elicitation of security requirements?",
+        "title": "Vocês usam um framework padrão para agilizar o levantamento dos requisitos de segurança?",
         "titleLocation": "left",
-        "description": "A security requirements framework is available for project teams",
+        "description": "Um framework de requisitos de segurança está disponível para os times de projetos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "795e7ddd03f2443c851e34fc6e023d71",
-        "title": "Do stakeholders review vendor collaborations for security requirements and methodology?",
+        "title": "Os stakeholders revisão as colaborações de fornecedores externos para os requisitos de segurança e sua metodologia?",
         "titleLocation": "left",
-        "description": "You consider including specific security requirements, activities, and processes when creating third-party agreements",
+        "description": "Vocês consideram incluir requisitos de segurança específicos, atividades e processos ao criar contratos com fornecedores externos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "dffdd9659e6243d7bcbcbc0dff4429fc",
-        "title": "Do vendors meet the security responsibilities and quality measures of service level agreements defined by the organization?",
+        "title": "Os fornecedores externos cumprem as responsabilidades de segurança e medidas de qualidade para os SLAs definidos pela organização?",
         "titleLocation": "left",
-        "description": "You discuss security requirements with the vendor when creating vendor agreements",
+        "description": "Vocês discutem requisitos de segurança com o fornecedor externo ao elaborar contratos",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "497753e656514aa6bdf3030bebcb3fbe",
-        "title": "Are vendors aligned with standard security controls and software development tools and processes that the organization utilizes?",
+        "title": "Os fornecedores externos estão alinhados com os controles de segurança e processos de desenvolvimento de software que a organização utiliza?",
         "titleLocation": "left",
-        "description": "The vendor has a secure SDLC that includes secure build, secure deployment, defect management, and incident management that align with those used in your organization",
+        "description": "O fornecedor externo tem um ciclo de desenvolvimento de software seguro que inclui build e desenvolvimento seguro, deployment seguro, gerenciamento de defeitos e incidentes alinhados com os da organização",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       }
     ],
-    "title": "Security Requirements",
+    "title": "Requisitos de Segurança",
     "state": "collapsed"
   });}
 export default secrequirement;

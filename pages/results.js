@@ -38,7 +38,7 @@ const additionalDataset = new Dataset()
 totalsBarGraph.set_aspect_ratio(3)
 bussFuncBarGraph.set_aspect_ratio(1)
 practiceBarGraph.set_aspect_ratio(1)
-var l = ["No","Yes, for some","Yes, for most","Yes, for all"]
+var l = ["Não","Yes, for some","Yes, for most","Yes, for all"]
 totalsBarGraph.set_labels(l)
 
 
@@ -195,12 +195,12 @@ const results = () => {
                         // }
 
 
-                        totalsBarGraphData[0] = testCalc.responseCount["No"]
+                        totalsBarGraphData[0] = testCalc.responseCount["Não"]
                         totalsBarGraphData[1] = testCalc.responseCount["Yes, for some"]
                         totalsBarGraphData[2] = testCalc.responseCount["Yes, for most"]
                         totalsBarGraphData[3] = testCalc.responseCount["Yes, for all"]
                         console.log(testCalc.responseCount);
-                        var totalsCount = [ testCalc.responseCount["No"],testCalc.responseCount["Yes, for some"], testCalc.responseCount["Yes, for most"], testCalc.responseCount["Yes, for all"]];
+                        var totalsCount = [ testCalc.responseCount["Não"],testCalc.responseCount["Yes, for some"], testCalc.responseCount["Yes, for most"], testCalc.responseCount["Yes, for all"]];
 
                         
                         totalsBarGraph.metaData.datasets[dataNum].data = []

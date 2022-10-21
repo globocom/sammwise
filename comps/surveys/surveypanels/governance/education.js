@@ -12,7 +12,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -41,7 +41,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -70,7 +70,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -99,7 +99,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -128,7 +128,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -157,7 +157,7 @@ const education = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,

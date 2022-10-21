@@ -17,17 +17,17 @@ const policy = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },

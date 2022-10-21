@@ -12,7 +12,7 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -41,7 +41,7 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -70,22 +70,22 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
@@ -99,22 +99,22 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
@@ -128,22 +128,22 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       },
@@ -157,22 +157,22 @@ const reqtest = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of the time"
+            "text": "Sim, algumas vezes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of the time"
+            "text": "Sim, pelo menos na metade das vezes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of the time"
+            "text": "Sim, na maioria ou em todas as vezes"
           }
         ]
       }

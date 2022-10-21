@@ -91,7 +91,7 @@ export default class assessmentCalculator{
         }
         this.overallScore = null;
         this.responseCount = {
-            "No":0,
+            "Não":0,
             "Yes, for some":0,
             "Yes, for most": 0,
             "Yes, for all":0}
@@ -126,7 +126,7 @@ export default class assessmentCalculator{
     sortResponseCount(values){
         for(let i =0; i<values.length;i++){
             if(values[i] == 0){
-                this.responseCount["No"]++
+                this.responseCount["Não"]++
             }
             if(values[i] == 0.25){
                 this.responseCount["Yes, for some"]++

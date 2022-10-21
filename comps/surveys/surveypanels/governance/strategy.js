@@ -14,7 +14,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
@@ -43,7 +43,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
@@ -72,7 +72,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
@@ -101,7 +101,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
@@ -130,7 +130,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
@@ -159,7 +159,7 @@ const strategy =()=>{
             {
               "value": 0,
               "weight": 1,
-              "text": "No"
+              "text": "Não"
             },
             {
               "value": 0.25,
