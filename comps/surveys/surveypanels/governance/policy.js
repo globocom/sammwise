@@ -12,7 +12,7 @@ const policy = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -41,7 +41,7 @@ const policy = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -70,7 +70,7 @@ const policy = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -92,29 +92,29 @@ const policy = () => {return ({
       {
         "type": "radiogroup",
         "id": "4bb7dd93f5874730bd84b41cb56ce60a",
-        "title": "Do you have a complete picture of your external compliance obligations?",
+        "title": "Você tem uma imagem completa das suas obrigações externas de compliance?",
         "titleLocation": "left",
-        "description": "You have identified all sources of external compliance obligations",
+        "description": "Vocês identificaram todas as fontes externas de obrigações de compliance",
         "choices": [
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some applications"
+            "text": "Sim, para algumas aplicações"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the applications"
+            "text": "Sim, para pelo menos metade das aplicações"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the applications"
+            "text": "Sim, para a maioria ou todas as aplicações"
           }
         ]
       },
@@ -128,7 +128,7 @@ const policy = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
@@ -157,7 +157,7 @@ const policy = () => {return ({
           {
             "value": 0,
             "weight": 1,
-            "text": "No"
+            "text": "Não"
           },
           {
             "value": 0.25,
