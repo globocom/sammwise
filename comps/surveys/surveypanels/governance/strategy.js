@@ -7,9 +7,9 @@ const strategy =()=>{
           name:"question1",
           "type": "radiogroup",
           "id": "64f49a28334e4a40a04e534225a941d2",
-          "title": "Do you understand the enterprise-wide risk appetite for your applications ?",
+          "title": "Vocês entendem o apetite de risco da organização para as suas aplicações?",
           "titleLocation": "left",
-          "description": "You capture the risk appetite of your organization's executive leadership",
+          "description": "Vocês conhecem a disposição a riscos das lideranças executivas da organização",
           "choices": [
             {
               "value": 0,
@@ -19,26 +19,26 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, it covers general risks"
+              "text": "Sim, conheço os riscos em geral"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, it covers organization-specific risks"
+              "text": "Sim, conheço os riscos específicos para nossa organização"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, it covers risks and opportunities"
+              "text": "Sim, conheço os riscos e oportunidades"
             }
           ]
         },
         {
           "type": "radiogroup",
           "id": "8fd0374f0b63476eacb3cadca99b1538",
-          "title": "Do you have a strategic plan for application security and use it to make decisions?",
+          "title": "Vocês tem um plano estratégico para segurança de aplicações e usam ele para tomar decisões?",
           "titleLocation": "left",
-          "description": "The plan reflects the organization's business priorities and risk appetite",
+          "description": "O plano reflete as prioridades de negócio da organização e a disposição a riscos",
           "choices": [
             {
               "value": 0,
@@ -48,26 +48,26 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, we review it annually"
+              "text": "Sim, nós o revisamos uma vez por ano"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, we consult the plan before making significant decisions"
+              "text": "Sim, nós consultamos o plano antes de domar decisões significativas"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, we consult the plan often, and it is aligned with our application security strategy"
+              "text": "Sim, nós consultamos o plano frequentemente e ele está alinhado com nossa estratégia para segurança de aplicações"
             }
           ]
         },
         {
           "type": "radiogroup",
           "id": "74eaee0cbf454a46adeb2619850bbcb3",
-          "title": "Do you regularly review and update the Strategic Plan for Application Security?",
+          "title": "Vocês revisam e atualizam o plano estratégico de segurança de aplicações com regularidade?",
           "titleLocation": "left",
-          "description": "You review and update the plan in response to significant changes in the business environment, the organization, or its risk appetite",
+          "description": "Vocês revisam e atualizam o plano em resposta a mudanças significativas no ambiente de negócios, na organização ou na sua disposição para riscos",
           "choices": [
             {
               "value": 0,
@@ -77,26 +77,26 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, but review is ad-hoc"
+              "text": "Sim, mas a revisão é sob demanda"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, we review it at regular times"
+              "text": "Sim, a revisão é feita em intervalos regulares"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, we review it at least annually"
+              "text": "Sim, nós revisamos o plano pelo menos uma vez por ano"
             }
           ]
         },
         {
           "type": "radiogroup",
           "id": "6aa85d5f3c03428aa064447fa50fa66b",
-          "title": "Do you use a set of metrics to measure the effectiveness and efficiency of the application security program across applications?",
+          "title": "Vocês usam um conjunto de métricas para a efetividade e eficácia do programa de segurança de aplicações em diferentes aplicações?",
           "titleLocation": "left",
-          "description": "You document each metric, including a description of the sources, measurement coverage, and guidance on how to use it to explain application security trends",
+          "description": "Vocês documentam cada métrica, incluindo uma descrição das fontes, cobertura das medições e guias de como usar cada métrica para explicar tendências de segurança de aplicações",
           "choices": [
             {
               "value": 0,
@@ -106,26 +106,26 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, for one metrics category"
+              "text": "Sim, para uma única categoria de métricas"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, for two metrics categories"
+              "text": "Sim, para duas categorias de métricas"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, for all three metrics categories"
+              "text": "Sim, para todas as três categorias de métricas"
             }
           ]
         },
         {
           "type": "radiogroup",
           "id": "26f12b057f2b44f386d9af391383b590",
-          "title": "Did you define Key Perfomance Indicators (KPI) from available application security metrics?",
+          "title": "Vocês definem indicadores chave de performance (KPIs) à partir das métricas de segurança de aplicações disponíveis?",
           "titleLocation": "left",
-          "description": "You defined KPIs after gathering enough information to establish realistic objectives",
+          "description": "Vocês definiram KPIs depois de coletar informações suficientes para determinar objetivos realistas",
           "choices": [
             {
               "value": 0,
@@ -135,26 +135,26 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, for some of the metrics"
+              "text": "Sim, para algumas métricas"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, for at least half of the metrics"
+              "text": "Sim, para pelo menos metade das métricas"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, for most or all of the metrics"
+              "text": "Sim, para a maioria ou todas as métricas"
             }
           ]
         },
         {
           "type": "radiogroup",
           "id": "efdc34fbb75b405b8107d63d58fa7286",
-          "title": "Do you update the Application Security strategy and roadmap based on application security metrics and KPIs?",
+          "title": "Vocês atualizam o roadmap de segurança de aplicações com base nas métricas e KPIs de segurança de aplicações?",
           "titleLocation": "left",
-          "description": "You review KPIs at least yearly for their efficiency and effectiveness",
+          "description": "Vocês revisam os KPIs pelo menos uma vez por ano em relação à sua eficácia e eficiência",
           "choices": [
             {
               "value": 0,
@@ -164,22 +164,22 @@ const strategy =()=>{
             {
               "value": 0.25,
               "weight": 1,
-              "text": "Yes, but review is ad-hoc"
+              "text": "Sim, mas a revisão é sob demanda"
             },
             {
               "value": 0.5,
               "weight": 1,
-              "text": "Yes, we review it at regular times"
+              "text": "Sim, revisamos em intervalos regulares"
             },
             {
               "value": 1,
               "weight": 1,
-              "text": "Yes, we review it at least annually"
+              "text": "Sim, revisamos pelo menos uma vez por ano"
             }
           ]
         }
       ],
-      "title": "Strategy and Metrics",
+      "title": "Estratégia e Métricas",
       "state": "expanded"
     });
 }

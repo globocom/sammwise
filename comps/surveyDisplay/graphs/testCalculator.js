@@ -9,7 +9,7 @@ export default class assessmentCalculator{
                         "answers": this.getAnswerMap(1),
                         "score":0
                     },
-                    "Policy and Compliance":{
+                    "Política e Compliance":{
                             "answers":this.getAnswerMap(7),
                             "score":0
                         },

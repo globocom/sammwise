@@ -19,7 +19,7 @@ var allAnswersJSON = {
                     score:0
                 },
                 {
-                    name:"Policy and Compliance",
+                    name:"Política e Compliance",
                     answers:[],
                     score:0
                 },
