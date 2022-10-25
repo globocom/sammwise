@@ -5,9 +5,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "7f92b3f940cb4229a6079016269d76c6",
-        "title": "Do you track all known security defects in accessible locations?",
+        "title": "Você rastreia todas as falhas de segurança conhecidos em locais acessíveis?",
         "titleLocation": "left",
-        "description": "You can easily get an overview of all security defects impacting one application",
+        "description": "Você pode obter facilmente uma visão geral de todas as falhas de segurança que afetam um aplicativo",
         "choices": [
           {
             "value": 0,
@@ -34,9 +34,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "5b333ff2dd474381b0af595ff13dcdcf",
-        "title": "Do you keep an overview of the state of security defects across the organization?",
+        "title": "Você mantém uma visão geral do estado das falhas de segurança em toda a organização?",
         "titleLocation": "left",
-        "description": "A single severity scheme is applied to all defects across the organization",
+        "description": "Um único esquema de gravidade é aplicado a todas as falhas em toda a organização",
         "choices": [
           {
             "value": 0,
@@ -63,9 +63,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "6b5eac7b9e2f49e2a2cda600ef70ad99",
-        "title": "Do you enforce SLAs for fixing security defects?",
+        "title": "Você aplica SLAs para corrigir falhas de segurança?",
         "titleLocation": "left",
-        "description": "You automatically alert of SLA breaches and transfer respective defects to the risk management process",
+        "description": "Você alerta automaticamente sobre violações de SLA e transfere os respectivos defeitos para o processo de gerenciamento de risco",
         "choices": [
           {
             "value": 0,
@@ -92,9 +92,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "29df0959af8f403383c8ad01a0f3c478",
-        "title": "Do you use basic metrics about recorded security defects to carry out quick win improvement activities?",
+        "title": "Você usa métricas básicas de falhas de segurança registradass para realizar atividades de melhoria de ganho rápido?",
         "titleLocation": "left",
-        "description": "You analyzed your recorded metrics at least once in the last year",
+        "description": "Você analisou suas métricas registradas pelo menos uma vez no último ano",
         "choices": [
           {
             "value": 0,
@@ -121,9 +121,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "1a849e8fd3ae41a4b3675947482426da",
-        "title": "Do you improve your security assurance program upon standardized metrics?",
+        "title": "Você melhora seu programa de garantia de segurança com base em métricas padronizadas?",
         "titleLocation": "left",
-        "description": "You document metrics for defect classification and categorization and keep them up to date",
+        "description": "Você documenta as métricas para classificação e categorização de falhas e as mantém atualizadas",
         "choices": [
           {
             "value": 0,
@@ -150,9 +150,9 @@ const defectmanagement = () => {return ({
       {
         "type": "radiogroup",
         "id": "0247b5b573b843609fdff791a1cc7c1b",
-        "title": "Do you regularly evaluate the effectiveness of your security metrics so that its input helps drive your security strategy?",
+        "title": "Você avalia regularmente a eficácia de suas métricas de segurança para que esses dados ajudem a impulsionar sua estratégia de segurança?",
         "titleLocation": "left",
-        "description": "You have analyzed the effectivenss of the security metrics at least once in the last year",
+        "description": "Você analisou a eficácia das métricas de segurança pelo menos uma vez no último ano",
         "choices": [
           {
             "value": 0,
