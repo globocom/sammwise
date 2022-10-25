@@ -10,7 +10,7 @@ var allAnswersJSON = {
     score:0,
     Pages:[
         {
-            name:"Governance",
+            name:"Governança",
             score:0,
             panels:[
                 {
