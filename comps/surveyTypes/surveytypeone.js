@@ -55,7 +55,7 @@ const Mysurvey = (prop) => {
     const router = useRouter();
     const [display, setDisplay] = useState(false);
     const [populateState,setPopulateState] = useState(false);
-    const [pageState, setPageState] = useState("Governance"); 
+    const [pageState, setPageState] = useState("Governança"); 
     const [dropDownState, setDropDownState] = useState(false);
     const [isDetailsPage, setDetailsPage] = useState(false);
     const [reloadSurvey, setReloadSurvey] = useState(false);
@@ -367,15 +367,15 @@ const Mysurvey = (prop) => {
                     var nextbtnText;
                     
                     if(isLastPanel(index)){
-                        nextbtnText = "Next Page";
+                        nextbtnText = "Próxima página";
                     } else{
-                        nextbtnText = "Next Practice";
+                        nextbtnText = "Próxima prática";
                     }
                     
                     var prevPanel = index - 1;
                     if (!(isFirstPanel(index))){
                         if(document.getElementById(prevID) == null){
-                            var prevbtn = createPanelButton("Previous Practice", prevID);
+                            var prevbtn = createPanelButton("Prática anterior", prevID);
                             prevbtn.onclick = function () {
                                 panels[index].collapse();
                                 panels[prevPanel].expand();

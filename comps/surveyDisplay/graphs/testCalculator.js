@@ -2,7 +2,7 @@ export default class assessmentCalculator{
     constructor(answerValues){
         this.answerValues = answerValues;
         this.sammModel = {
-            "Governance":{
+            "Governança":{
                 "totalScore":0,
                 "practices":{
                     "Strategy and Metrics":{

@@ -1,7 +1,7 @@
 const strategy =()=>{
     return({
       "type": "panel",
-      "name": "Strategy and Metrics",
+      "name": "Estratégia e Métricas",
       "elements": [
         {
           name:"question1",
