@@ -1,13 +1,13 @@
 const opman = () => {return ({
     "type": "panel",
-    "name": "Operational Management",
+    "name": "Gestão operacional",
     "elements": [
       {
         "type": "radiogroup",
         "id": "41b0c2ab37774000b2b81077605bbd93",
-        "title": "Do you protect and handle information according to protection requirements for data stored and processed on each application?",
+        "title": "Você protege e trata as informações de acordo com os requisitos de proteção dos dados armazenados e processados ​​em cada aplicação?",
         "titleLocation": "left",
-        "description": "You know the data elements processed and stored by each application",
+        "description": "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
         "choices": [
           {
             "value": 0,
@@ -34,9 +34,9 @@ const opman = () => {return ({
       {
         "type": "radiogroup",
         "id": "424c004afec041058e89c396c9e88930",
-        "title": "Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?",
+        "title": "Você mantém um catálogo de dados, incluindo tipos, níveis de sensibilidade e locais de processamento e armazenamento?",
         "titleLocation": "left",
-        "description": "The data catalog is stored in an accessible location",
+        "description": "O catálogo de dados é armazenado em um local acessível",
         "choices": [
           {
             "value": 0,
@@ -63,9 +63,9 @@ const opman = () => {return ({
       {
         "type": "radiogroup",
         "id": "8176c4588bdd4e979e3c82566450696a",
-        "title": "Do you regularly review and update the data catalog and your data protection policies and procedures?",
+        "title": "Você revisa e atualiza regularmente o catálogo de dados e suas políticas e procedimentos de proteção de dados?",
         "titleLocation": "left",
-        "description": "You have automated monitoring to detect attempted or actual violations of the Data Protection Policy",
+        "description": "Você tem monitoramento automatizado para detectar violações (tentadas ou reais) da Política de Proteção de Dados",
         "choices": [
           {
             "value": 0,
@@ -92,9 +92,9 @@ const opman = () => {return ({
       {
         "type": "radiogroup",
         "id": "b50d81aba3734cb59d618fd74bc5c99e",
-        "title": "Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?",
+        "title": "Você identifica e remove sistemas, aplicativos, dependências de aplicativos ou serviços que não são mais usados, chegaram ao fim de sya vida útil ou que não são mais desenvolvidos ou suportados ativamente?",
         "titleLocation": "left",
-        "description": "You do not use unsupported applications or dependencies",
+        "description": "Você não usa aplicativos ou dependências sem suporte",
         "choices": [
           {
             "value": 0,
@@ -121,9 +121,9 @@ const opman = () => {return ({
       {
         "type": "radiogroup",
         "id": "f9c5a8649ddf4168b6f62d0018a32704",
-        "title": "Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?",
+        "title": "Você segue um processo estabelecido para remover todos os recursos associados, como parte do descomissionamento de sistemas, aplicativos, dependências de aplicativos ou serviços não utilizados?",
         "titleLocation": "left",
-        "description": "You document the status of support for all released versions of your products, in an accessible location",
+        "description": "Você documenta o status do suporte para todas as versões lançadas de seus produtos, em um local acessível",
         "choices": [
           {
             "value": 0,
@@ -150,9 +150,9 @@ const opman = () => {return ({
       {
         "type": "radiogroup",
         "id": "54ad3e4182844623b3290901c1a1932d",
-        "title": "Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?",
+        "title": "Você avalia regularmente o estado do ciclo de vida e o status de suporte de cada ativo de software e componente de infraestrutura subjacente e estima seu fim de vida?",
         "titleLocation": "left",
-        "description": "Your end of life management process is agreed upon",
+        "description": "Seu processo de gerenciamento de fim de vida é acordado",
         "choices": [
           {
             "value": 0,
@@ -177,7 +177,7 @@ const opman = () => {return ({
         ]
       }
     ],
-    "title": "Operational Management",
+    "title": "Gestão operacional",
     "state": "collapsed"
   });}
 export default opman;

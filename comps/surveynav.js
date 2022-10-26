@@ -29,7 +29,7 @@ const SurveyNav = (props) => {
                          {name:"Design", state:false},
                          {name:"Implementation", state:false},
                          {name:"Verificação", state:false},
-                         {name:"Operations", state:false},
+                         {name:"Operações", state:false},
                          {name:"Details", state:false}]
 
     function updateButtonState(index){

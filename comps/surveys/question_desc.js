@@ -385,42 +385,42 @@ const question_desc = ()=>{
             "You review test results and incorporate them into security awareness training and security testing playbooks",
             "Stakeholders review the test results and handle them in accordance with the organization's risk management"
          ],
-         "Do you analyze log data for security incidents periodically?":[
-            "You have a contact point for the creation of security incidents",
+         "Você analisa periodicamente logs para identificar incidentes de segurança?":[
+            "Você tem um ponto focal para a criação de incidentes de segurança",
             "You analyze data in accordance with the log data retention periods",
             "The frequency of this analysis is aligned with the criticality of your applications"
          ],
-         "Do you respond to detected incidents?":[
-            "You have a defined person or role for incident handling",
+         "Você trata todos incidentes detectados?":[
+            "Você tem uma pessoa ou função definida para tratamento de incidentes",
             "You document security incidents"
          ],
-         "Do you follow a documented process for incident detection?":[
-            "The process has a dedicated owner",
+         "Você segue um processo documentado para detecção de incidentes?":[
+            "O processo tem um proprietário dedicado",
             "You store process documentation in an accessible location",
             "The process considers an escalation path for further analysis",
             "You train employees responsible for incident detection in this process",
             "You have a checklist of potential attacks to simplify incident detection"
          ],
-         "Do you use a repeatable process for incident handling?":[
-            "You have an agreed upon incident classification",
+         "Você usa um processo padrão para tratamento de incidentes?":[
+            "Você tem uma classificação de incidente definida",
             "The process considers Root Case Analysis for high severity incidents",
             "Employees responsible for incident response are trained in this process",
             "Forensic analysis tooling is available"
          ],
-         "Do you review and update the incident detection process regularly?":[
-            "You perform reviews at least annually",
+         "Você revisa e atualiza o processo de detecção de incidentes regularmente?":[
+            "Você realiza revisões pelo menos uma vez ao ano",
             "You update the checklist of potential attacks with external and internal data"
          ],
-         "Do you have a dedicated incident response team available?":[
-            "The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so",
+         "Você tem uma equipe dedicada de resposta a incidentes disponível?":[
+            "A equipe realiza a análise de causa raiz para todos os incidentes de segurança, a menos que haja um motivo específico para não fazê-lo",
             "You review and update the response process at least annually"
          ],
          "Do you harden configurations for key components of your technology stacks?":[
             "You have identified the key components in each technology stack used",
             "You have an established configuration standard for each key component"
          ],
-         "Do you identify and patch vulnerable components?":[
-            "You have an up-to-date list of components, including version information",
+         "Você identifica e corrige componentes vulneráveis?":[
+            "Você tem uma lista atualizada de componentes, incluindo informações de versão",
             "You regularly review public sources for vulnerabilities related to your components"
          ],
          "Do you have hardening baselines for your components?":[
@@ -429,8 +429,8 @@ const question_desc = ()=>{
             "You store baselines in an accessible location",
             "You train employees responsible for configurations in these baselines"
          ],
-         "Do you follow an established process for updating components of your technology stacks?":[
-            "The process includes vendor information for third-party patches",
+         "Você segue um processo estabelecido para atualizar componentes de sua stack de tecnologia?":[
+            "O processo inclui informações do fornecedor para patches de terceiros",
             "The process considers external sources to gather information about zero day attacks, and includes appropriate risk mitigation steps",
             "The process includes guidance for prioritizing component updates"
          ],
@@ -440,38 +440,38 @@ const question_desc = ()=>{
             "You follow an established process to address reported non-conformities",
             "You review each baseline at least annually, and update it when required"
          ],
-         "Do you regularly evaluate components and review patch level status?":[
-            "You update the list with components and versions",
+         "Você avalia regularmente os componentes e revisa o status do nível de correção?":[
+            "Você atualiza a lista com componentes e suas versões",
             "You identify and update missing updates according to existing SLA",
             "You review and update the process based on feedback from the people who perform patching"
          ],
-         "Do you protect and handle information according to protection requirements for data stored and processed on each application?":[
-            "You know the data elements processed and stored by each application",
+         "Você protege e trata as informações de acordo com os requisitos de proteção dos dados armazenados e processados ​​em cada aplicação?":[
+            "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
             "You know the type and sensitivity level of each identified data element",
             "You have controls to prevent propagation of unsanitized sensitive data from production to lower environments"
          ],
-         "Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?":[
-            "You do not use unsupported applications or dependencies",
+         "Você identifica e remove sistemas, aplicativos, dependências de aplicativos ou serviços que não são mais usados, chegaram ao fim de sya vida útil ou que não são mais desenvolvidos ou suportados ativamente?":[
+            "Você não usa aplicativos ou dependências sem suporte",
             "You manage customer/user migration from older versions for each product and customer/user group"
          ],
-         "Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?":[
-            "The data catalog is stored in an accessible location",
+         "Você mantém um catálogo de dados, incluindo tipos, níveis de sensibilidade e locais de processamento e armazenamento?":[
+            "O catálogo de dados é armazenado em um local acessível",
             "You know which data elements are subject to specific regulation",
             "You have controls for protecting and preserving data throughout its lifetime",
             "You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends"
          ],
-         "Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?":[
-            "You document the status of support for all released versions of your products, in an accessible location",
+         "Você segue um processo estabelecido para remover todos os recursos associados, como parte do descomissionamento de sistemas, aplicativos, dependências de aplicativos ou serviços não utilizados?":[
+            "Você documenta o status do suporte para todas as versões lançadas de seus produtos, em um local acessível",
             "The process includes replacement or upgrade of third-party applications, or application dependencies, that have reached end of life",
             "Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts"
          ],
-         "Do you regularly review and update the data catalog and your data protection policies and procedures?":[
-            "You have automated monitoring to detect attempted or actual violations of the Data Protection Policy",
+         "Você revisa e atualiza regularmente o catálogo de dados e suas políticas e procedimentos de proteção de dados?":[
+            "Você tem monitoramento automatizado para detectar violações (tentadas ou reais) da Política de Proteção de Dados",
             "You have tools for data loss prevention, access control and tracking, or anomalous behavior detection",
             "You periodically audit the operation of automated mechanisms, including backups and record deletions"
          ],
-         "Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?":[
-            "Your end of life management process is agreed upon",
+         "Você avalia regularmente o estado do ciclo de vida e o status de suporte de cada ativo de software e componente de infraestrutura subjacente e estima seu fim de vida?":[
+            "Seu processo de gerenciamento de fim de vida é acordado",
             "You inform customers and user groups of product timelines to prevent disruption of service or support",
             "You review the process at least annually"
          ]

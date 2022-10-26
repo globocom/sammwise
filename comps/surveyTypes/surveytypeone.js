@@ -169,7 +169,7 @@ const Mysurvey = (prop) => {
                     
                 }
                 else if(survey.currentPageNo == 3){  
-                    pageName = "Operations";
+                    pageName = "Operações";
 
                 }
                 else if(survey.currentPageNo == 4){

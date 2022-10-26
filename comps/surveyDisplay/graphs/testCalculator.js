@@ -71,10 +71,10 @@ export default class assessmentCalculator{
                     }
                 }
             },
-            "Operations":{
+            "Operações":{
                 "totalScore":0,
                 "practices":{
-                    "Incident Management":{
+                    "Gestão de Incidentes":{
                         "answers": this.getAnswerMap(73),
                         "score":0
                     },
@@ -95,7 +95,7 @@ export default class assessmentCalculator{
             "Yes, for some":0,
             "Yes, for most": 0,
             "Yes, for all":0}
-        this.businessFunctionNames = ["Governance", "Design", "Implementation", "Verificação", "Operations"]
+        this.businessFunctionNames = ["Governance", "Design", "Implementation", "Verificação", "Operações"]
         this.practiceNames = []
         this.businessFunctionScores = []
         this.practiceScores = []

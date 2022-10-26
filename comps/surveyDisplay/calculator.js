@@ -94,7 +94,7 @@ var allAnswersJSON = {
             ]
         },
         {
-            name:"Operations",
+            name:"Operações",
             score:0,
             panels:[
                 {
@@ -103,7 +103,7 @@ var allAnswersJSON = {
                     score:0
                 },
                 {
-                    name:"Incident Management",
+                    name:"Gestão de Incidentes",
                     answers:[],
                     score:0
                 },
