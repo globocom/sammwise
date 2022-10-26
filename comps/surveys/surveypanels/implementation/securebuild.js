@@ -36,7 +36,7 @@ const securebuild = () => {return ({
       "id": "b5d33583538b4878bb4674a5f838b8ea",
       "title": "O processo de build é totalmente automatizado?",
       "titleLocation": "left",
-      "description": "O processo de construção em si não requer nenhuma interação humana",
+      "description": "O processo de build em si não requer nenhuma interação humana",
       "choices": [
         {
           "value": 0,
@@ -92,9 +92,9 @@ const securebuild = () => {return ({
     {
       "type": "radiogroup",
       "id": "1e28b82cc3ba4e4ea2552746e17c25af",
-      "title": "Você tem um conhecimento sólido sobre as dependências nas quais está confiando?",
+      "title": "Você tem um conhecimento sólido sobre as dependências nas quais está utilizando?",
       "titleLocation": "left",
-      "description": "Você tem uma lista de materiais (Bill of Material) atualizada para cada aplicação",
+      "description": "Você tem uma lista de materiais (Bill of Materials) atualizada para cada aplicação",
       "choices": [
         {
           "value": 0,
@@ -152,7 +152,7 @@ const securebuild = () => {return ({
       "id": "418e98e2939546e69a24d0c3c4c8d217",
       "title": "Você impede o build da aplicação, caso ele seja afetado por uma vulnerabilidade de dependência?",
       "titleLocation": "left",
-      "description": "Seu processo de build está conectado a um sistema para rastrear o risco de dependência de terceiros, fazendo com que a compilação falhe, a menos que a vulnerabilidade seja avaliada como um falso positivo ou o risco seja explicitamente aceito",
+      "description": "Seu processo de build está conectado a um sistema para rastrear o risco de dependência de terceiros, fazendo com que o build falhe, a menos que a vulnerabilidade seja avaliada como um falso positivo ou o risco seja explicitamente aceito",
       "choices": [
         {
           "value": 0,
@@ -177,7 +177,7 @@ const securebuild = () => {return ({
       ]
     }
   ],
-  "title": "Secure Build",
+  "title": "Build Seguro",
   "state": "expanded"
 });}
 export default securebuild;

@@ -1,6 +1,6 @@
 const defectmanagement = () => {return ({
     "type": "panel",
-    "name": "Defect Management",
+    "name": "Gerenciamento de falhas",
     "elements": [
       {
         "type": "radiogroup",
@@ -177,7 +177,7 @@ const defectmanagement = () => {return ({
         ]
       }
     ],
-    "title": "Defect Management",
+    "title": "Gerenciamento de falhas",
     "state": "collapsed"
   });}
 export default defectmanagement;

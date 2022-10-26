@@ -1,13 +1,13 @@
 const securedeployment = () => {return ({
     "type": "panel",
-    "name": "Secure Deployment",
+    "name": "Deployment Seguro",
     "elements": [
       {
         "type": "radiogroup",
         "id": "24697d43707b4d83a6a5819a9db9a75d",
-        "title": "Você usa processos de implantação repetíveis?",
+        "title": "Você usa processos de deployment repetíveis?",
         "titleLocation": "left",
-        "description": "Você tem informações suficientes para executar os processos de implantação",
+        "description": "Você tem informações suficientes para executar os processos de deployment",
         "choices": [
           {
             "value": 0,
@@ -177,7 +177,7 @@ const securedeployment = () => {return ({
         ]
       }
     ],
-    "title": "Secure Deployment",
+    "title": "Deployment Seguro",
     "state": "collapsed"
   });}
 export default securedeployment;
