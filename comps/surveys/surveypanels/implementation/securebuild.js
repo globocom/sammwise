@@ -1,6 +1,6 @@
 const securebuild = () => {return ({
   "type": "panel",
-  "name": "Secure Build",
+  "name": "Build Seguro",
   "elements": [
     {
       "type": "radiogroup",

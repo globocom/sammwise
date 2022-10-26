@@ -17,17 +17,17 @@ const reqtest = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
@@ -46,17 +46,17 @@ const reqtest = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of them"
+            "text": "Sim, alguns deles"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of them"
+            "text": "Sim, pelo menos metade deles"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of them"
+            "text": "Sim, a maioria ou todos eles"
           }
         ]
       },
