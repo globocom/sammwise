@@ -28,7 +28,7 @@ const SurveyNav = (props) => {
     const buttonState = [{name:"Governance",state:true},
                          {name:"Design", state:false},
                          {name:"Implementation", state:false},
-                         {name:"Verification", state:false},
+                         {name:"Verificação", state:false},
                          {name:"Operations", state:false},
                          {name:"Details", state:false}]
 

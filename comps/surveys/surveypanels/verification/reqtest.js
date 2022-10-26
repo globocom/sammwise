@@ -1,13 +1,13 @@
 const reqtest = () => {return ({
     "type": "panel",
-    "name": "Requirements-driven Testing",
+    "name": "Testes baseados em requisitos",
     "elements": [
       {
         "type": "radiogroup",
         "id": "cb085e0a25724700bc10c73cfcc8f6a5",
-        "title": "Do you test applications for the correct functioning of standard security controls?",
+        "title": "Você testa suas aplicações para o funcionamento correto dos controles de segurança?",
         "titleLocation": "left",
-        "description": "Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls",
+        "description": "O testes de segurança verificam pelo menos a implementação da autenticação, controle de acesso, validação de entrada, codificação e escape de dados e controles de criptografia",
         "choices": [
           {
             "value": 0,
@@ -34,7 +34,7 @@ const reqtest = () => {return ({
       {
         "type": "radiogroup",
         "id": "d6b26a63243d4142bd2a8317e2875a03",
-        "title": "Do you consistently write and execute test scripts to verify the functionality of security requirements?",
+        "title": "Você escreve e executa consistentemente scripts de teste para verificar a funcionalidade dos requisitos de segurança?",
         "titleLocation": "left",
         "description": "You tailor tests to each application and assert expected security functionality",
         "choices": [
@@ -92,9 +92,9 @@ const reqtest = () => {return ({
       {
         "type": "radiogroup",
         "id": "749893a53df24c32bc887b6d5f7b3f7b",
-        "title": "Do you test applications using randomization or fuzzing techniques?",
+        "title": "Você testa aplicações usando técnicas de randomização ou fuzzing?",
         "titleLocation": "left",
-        "description": "Testing covers most or all of the application's main input parameters",
+        "description": "O teste abrange a maioria ou todos os principais parâmetros de entrada da aplicação",
         "choices": [
           {
             "value": 0,
@@ -121,9 +121,9 @@ const reqtest = () => {return ({
       {
         "type": "radiogroup",
         "id": "b2afb33fe6ef4b6e90e029059f7a7124",
-        "title": "Do you create abuse cases from functional requirements and use them to drive security tests?",
+        "title": "Você cria casos de abuso a partir de requisitos funcionais e os usa para conduzir testes de segurança?",
         "titleLocation": "left",
-        "description": "Important business functionality has corresponding abuse cases",
+        "description": "Funcionalidades de negócio importantes possuem casos de abuso correspondentes",
         "choices": [
           {
             "value": 0,
@@ -150,9 +150,9 @@ const reqtest = () => {return ({
       {
         "type": "radiogroup",
         "id": "814caca2fc5241dcb90c48302ac031b2",
-        "title": "Do you perform denial of service and security stress testing?",
+        "title": "Você executa negação de serviço e testes de estresse de segurança?",
         "titleLocation": "left",
-        "description": "Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)",
+        "description": "Os testes de estresse visam recursos especificos da aplicação (por exemplo, esgotamento de memória ao salvar grandes quantidades de dados em uma sessão de usuário)",
         "choices": [
           {
             "value": 0,
@@ -177,7 +177,7 @@ const reqtest = () => {return ({
         ]
       }
     ],
-    "title": "Requirements-driven Testing",
+    "title": "Testes baseados em requisitos",
     "state": "collapsed"
   });}
 export default reqtest;

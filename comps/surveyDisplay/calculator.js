@@ -77,7 +77,7 @@ var allAnswersJSON = {
             score:0,
             panels:[
                 {
-                    name:"Architecture Assessment",
+                    name:"Avaliação de Arquitetura",
                     answers:[],
                     score:0
                 },
@@ -87,7 +87,7 @@ var allAnswersJSON = {
                     score:0
                 },
                 {
-                    name:"Security Testing",
+                    name:"Testes de segurança",
                     answers:[],
                     score:0
                 }

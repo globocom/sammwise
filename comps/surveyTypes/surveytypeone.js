@@ -165,7 +165,7 @@ const Mysurvey = (prop) => {
                     pageName = "Implementation";
                 }
                 else if(survey.currentPageNo == 2){
-                    pageName = "Verification";
+                    pageName = "Verificação";
                     
                 }
                 else if(survey.currentPageNo == 3){  
