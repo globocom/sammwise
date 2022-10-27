@@ -1,6 +1,6 @@
 const envman = () => {return ({
     "type": "panel",
-    "name": "Environmental Management",
+    "name": "Gestão de Ambientes",
     "elements": [
       {
         "type": "radiogroup",
@@ -92,9 +92,9 @@ const envman = () => {return ({
       {
         "type": "radiogroup",
         "id": "180e194b165d421c9d2c89258195a792",
-        "title": "Do you identify and patch vulnerable components?",
+        "title": "Você identifica e corrige componentes vulneráveis?",
         "titleLocation": "left",
-        "description": "You have an up-to-date list of components, including version information",
+        "description": "Você tem uma lista atualizada de componentes, incluindo informações de versão",
         "choices": [
           {
             "value": 0,
@@ -121,9 +121,9 @@ const envman = () => {return ({
       {
         "type": "radiogroup",
         "id": "0844b1a3be8b49ec83c7377a9f797cfc",
-        "title": "Do you follow an established process for updating components of your technology stacks?",
+        "title": "Você segue um processo estabelecido para atualizar componentes de sua stack de tecnologia?",
         "titleLocation": "left",
-        "description": "The process includes vendor information for third-party patches",
+        "description": "O processo inclui informações do fornecedor para patches de terceiros",
         "choices": [
           {
             "value": 0,
@@ -150,9 +150,9 @@ const envman = () => {return ({
       {
         "type": "radiogroup",
         "id": "6e72179a31c04024bb649346bfb03eb5",
-        "title": "Do you regularly evaluate components and review patch level status?",
+        "title": "Você avalia regularmente os componentes e revisa o status do nível de correção?",
         "titleLocation": "left",
-        "description": "You update the list with components and versions",
+        "description": "Você atualiza a lista com componentes e suas versões",
         "choices": [
           {
             "value": 0,
@@ -177,7 +177,7 @@ const envman = () => {return ({
         ]
       }
     ],
-    "title": "Environmental Management",
+    "title": "Gestão de Ambientes",
     "state": "collapsed"
   });}
 export default envman;

@@ -295,55 +295,55 @@ const question_desc = ()=>{
             "You derived at least one strategic activity from the metrics in the last year"
          ],
          "Do you review the application architecture for key security objectives on an ad-hoc basis?":[
-            "You have an agreed upon model of the overall software architecture",
+            "Voce tem um modelo geral de arquitetura de referência para aplicações?",
             "You include components, interfaces, and integrations in the architecture model",
             "You verify the correct provision of general security mechanisms",
             "You log missing security controls as defects"
          ],
-         "Do you review the application architecture for mitigations of typical threats on an ad-hoc basis?":[
-            "You have an agreed upon model of the overall software architecture",
+         "Você revisa a arquitetura de aplicação para mitigação de ameaças típicas em uma base ad-hoc?":[
+            "Voce tem um modelo geral de arquitetura de referência para aplicações?",
             "Security savvy staff conduct the review",
             "You consider different types of threats, including insider and data-related one"
          ],
-         "Do you regularly review the security mechanisms of your architecture?":[
-            "You review compliance with internal and external requirements",
+         "Você revisa regularmente os mecanismos de segurança de sua(s) arquitetura(s)?":[
+            "Você revisa a conformidade(compliance) em relação aos requisitos internos e externos",
             "You systematically review each interface in the system",
             "You use a formalized review method and structured validation",
             "You log missing security mechanisms as defects"
          ],
-         "Do you regularly evaluate the threats to your architecture?":[
-            "You systematically review each threat identified in the Threat Assessment",
+         "Você avalia regularmente as ameaças à sua arquitetura?":[
+            "Você revisa sistematicamente cada ameaça identificada na Avaliação de Ameaças",
             "Trained or experienced people lead review exercise",
             "You identify mitigating design-level features for each identified threat",
             "You log unhandled threats as defects"
          ],
-         "Do you regularly review the effectiveness of the security controls?":[
-            "You evaluate the preventive, detective, and response capabilities of security controls",
+         "Você revisa regularmente a eficácia dos controles de segurança?":[
+            "Você avalia os recursos preventivos, de detecção e de resposta dos controles de segurança",
             "You evaluate the strategy alignment, appropriate support, and scalability of security controls",
             "You evaluate the effectiveness at least yearly",
             "You log identified shortcomings as defects"
          ],
-         "Do you regularly update your reference architectures based on architecture assessment findings?":[
-            "You assess your architectures in a standardized, documented manner",
+         "Você atualiza regularmente suas arquiteturas de referência com base nas descobertas da avaliação da arquitetura?":[
+            "Você avalia suas arquiteturas de maneira padronizada e documentada",
             "You use recurring findings to trigger a review of reference architectures",
-            "You independently review the quality of the architecture assessments on an ad-hoc basis",
+            "You independently review the quality of the Avaliação de Arquiteturas on an ad-hoc basis",
             "You use reference architecture updates to trigger reviews of relevant shared solutions, in a risk-based manner"
          ],
-         "Do you test applications for the correct functioning of standard security controls?":[
-            "Security testing at least verifies the implementation of authentication, access control, input validation, encoding and escaping data, and encryption controls",
+         "Você testa suas aplicações para o funcionamento correto dos controles de segurança?":[
+            "O testes de segurança verificam pelo menos a implementação da autenticação, controle de acesso, validação de entrada, codificação e escape de dados e controles de criptografia",
             "Security testing executes whenever the application changes its use of the controls"
          ],
-         "Do you test applications using randomization or fuzzing techniques?":[
-            "Testing covers most or all of the application's main input parameters",
+         "Você testa aplicações usando técnicas de randomização ou fuzzing?":[
+            "O teste abrange a maioria ou todos os principais parâmetros de entrada da aplicação",
             "You record and inspect all application crashes for security impact on a best-effort basis"
          ],
-         "Do you consistently write and execute test scripts to verify the functionality of security requirements?":[
+         "Você escreve e executa consistentemente scripts de teste para verificar a funcionalidade dos requisitos de segurança?":[
             "You tailor tests to each application and assert expected security functionality",
             "You capture test results as a pass or fail condition",
             "Tests use a standardized framework or DSL"
          ],
-         "Do you create abuse cases from functional requirements and use them to drive security tests?":[
-            "Important business functionality has corresponding abuse cases",
+         "Você cria casos de abuso a partir de requisitos funcionais e os usa para conduzir testes de segurança?":[
+            "Funcionalidades de negócio importantes possuem casos de abuso correspondentes",
             "You build abuse stories around relevant personas with well-defined motivations and characteristics",
             "You capture identified weaknesses as security requirements"
          ],
@@ -351,76 +351,76 @@ const question_desc = ()=>{
             "You consistently write tests for all identified bugs (possibly exceeding a pre-defined severity threshhold)",
             "You collect security tests in a test suite that is part of the existing unit testing framework"
          ],
-         "Do you perform denial of service and security stress testing?":[
-            "Stress tests target specific application resources (e.g. memory exhaustion by saving large amounts of data to a user session)",
+         "Você executa negação de serviço e testes de estresse de segurança?":[
+            "Os testes de estresse visam recursos especificos da aplicação (por exemplo, esgotamento de memória ao salvar grandes quantidades de dados em uma sessão de usuário)",
             "You design tests around relevant personas with well-defined capabilities (knowledge, resources)",
             "You feed the results back to the Design practices"
          ],
-         "Do you scan applications with automated security testing tools?":[
-            "You dynamically generate inputs for security tests using automated tools",
+         "Você faz scans nas aplicações utilizando ferramentas automatizadas de teste de segurança?":[
+            "Você gera dinamicamente entradas para testes de segurança usando ferramentas automatizadas",
             "You choose the security testing tools to fit the organization's architecture and technology stack, and balance depth and accuracy of inspection with usability of findings to the organization"
          ],
-         "Do you manually review the security quality of selected high-risk components?":[
-            "Criteria exist to help the reviewer focus on high-risk components",
+         "Você revisa manualmente a qualidade de segurança de componentes de alto risco selecionados?":[
+            "Existem critérios para ajudar o revisor a se concentrar em componentes de alto risco",
             "Qualified personnel conduct reviews following documented guidelines",
             "You address findings in accordance with the organization's defect management policy"
          ],
-         "Do you customize the automated security tools to your applications and technology stacks?":[
-            "You tune and select tool features which match your application or technology stack",
+         "Você personaliza as ferramentas de segurança automatizadas para seus aplicativos e pilhas de tecnologia?":[
+            "Você ajusta e seleciona os recursos da ferramenta que correspondem a sua aplicação ou pilha de tecnologia",
             "You minimize false positives by silencing or automatically filter irrelevant warnings or low probability findings",
             "You minimize false negatives by leverage tool extensions or DSLs to customize tools for your application or organizational standards"
          ],
-         "Do you perform penetration testing for your applications at regular intervals?":[
-            "Penetration testing uses application-specific security test cases to evaluate security",
+         "Você realiza pentests para seus aplicativos em intervalos regulares?":[
+            "Os pentests usam casos de teste de segurança específicos da aplicação",
             "Penetration testing looks for both technical and logical issues in the application",
             "Stakeholders review the test results and handle them in accordance with the organization's risk management",
             "Qualified personnnel performs penetration testing"
          ],
-         "Do you integrate automated security testing into the build and deploy process?":[
-            "Management and business stakeholders track and review test results throughout the development cycle",
+         "Você integra testes de segurança automatizados nos processos de build  e implantação?":[
+            "A gerência e as partes interessadas rastreiam e revisam os resultados dos testes ao longo do ciclo de desenvolvimento",
             "You merge test results into a central dashboard and feed them into defect management"
          ],
-         "Do you use the results of security testing to improve the development lifecycle?":[
-            "You use results from other security activities to improve integrated security testing during development",
+         "Você usa os resultados dos testes de segurança para melhorar o ciclo de vida do desenvolvimento?":[
+            "Você usa os resultados de outras atividades de segurança para melhorar os testes de segurança integrados durante o desenvolvimento",
             "You review test results and incorporate them into security awareness training and security testing playbooks",
             "Stakeholders review the test results and handle them in accordance with the organization's risk management"
          ],
-         "Do you analyze log data for security incidents periodically?":[
-            "You have a contact point for the creation of security incidents",
+         "Você analisa periodicamente logs para identificar incidentes de segurança?":[
+            "Você tem um ponto focal para a criação de incidentes de segurança",
             "You analyze data in accordance with the log data retention periods",
             "The frequency of this analysis is aligned with the criticality of your applications"
          ],
-         "Do you respond to detected incidents?":[
-            "You have a defined person or role for incident handling",
+         "Você trata todos incidentes detectados?":[
+            "Você tem uma pessoa ou função definida para tratamento de incidentes",
             "You document security incidents"
          ],
-         "Do you follow a documented process for incident detection?":[
-            "The process has a dedicated owner",
+         "Você segue um processo documentado para detecção de incidentes?":[
+            "O processo tem um proprietário dedicado",
             "You store process documentation in an accessible location",
             "The process considers an escalation path for further analysis",
             "You train employees responsible for incident detection in this process",
             "You have a checklist of potential attacks to simplify incident detection"
          ],
-         "Do you use a repeatable process for incident handling?":[
-            "You have an agreed upon incident classification",
+         "Você usa um processo padrão para tratamento de incidentes?":[
+            "Você tem uma classificação de incidente definida",
             "The process considers Root Case Analysis for high severity incidents",
             "Employees responsible for incident response are trained in this process",
             "Forensic analysis tooling is available"
          ],
-         "Do you review and update the incident detection process regularly?":[
-            "You perform reviews at least annually",
+         "Você revisa e atualiza o processo de detecção de incidentes regularmente?":[
+            "Você realiza revisões pelo menos uma vez ao ano",
             "You update the checklist of potential attacks with external and internal data"
          ],
-         "Do you have a dedicated incident response team available?":[
-            "The team performs Root Cause Analysis for all security incidents unless there is a specific reason not to do so",
+         "Você tem uma equipe dedicada de resposta a incidentes disponível?":[
+            "A equipe realiza a análise de causa raiz para todos os incidentes de segurança, a menos que haja um motivo específico para não fazê-lo",
             "You review and update the response process at least annually"
          ],
          "Do you harden configurations for key components of your technology stacks?":[
             "You have identified the key components in each technology stack used",
             "You have an established configuration standard for each key component"
          ],
-         "Do you identify and patch vulnerable components?":[
-            "You have an up-to-date list of components, including version information",
+         "Você identifica e corrige componentes vulneráveis?":[
+            "Você tem uma lista atualizada de componentes, incluindo informações de versão",
             "You regularly review public sources for vulnerabilities related to your components"
          ],
          "Do you have hardening baselines for your components?":[
@@ -429,8 +429,8 @@ const question_desc = ()=>{
             "You store baselines in an accessible location",
             "You train employees responsible for configurations in these baselines"
          ],
-         "Do you follow an established process for updating components of your technology stacks?":[
-            "The process includes vendor information for third-party patches",
+         "Você segue um processo estabelecido para atualizar componentes de sua stack de tecnologia?":[
+            "O processo inclui informações do fornecedor para patches de terceiros",
             "The process considers external sources to gather information about zero day attacks, and includes appropriate risk mitigation steps",
             "The process includes guidance for prioritizing component updates"
          ],
@@ -440,38 +440,38 @@ const question_desc = ()=>{
             "You follow an established process to address reported non-conformities",
             "You review each baseline at least annually, and update it when required"
          ],
-         "Do you regularly evaluate components and review patch level status?":[
-            "You update the list with components and versions",
+         "Você avalia regularmente os componentes e revisa o status do nível de correção?":[
+            "Você atualiza a lista com componentes e suas versões",
             "You identify and update missing updates according to existing SLA",
             "You review and update the process based on feedback from the people who perform patching"
          ],
-         "Do you protect and handle information according to protection requirements for data stored and processed on each application?":[
-            "You know the data elements processed and stored by each application",
+         "Você protege e trata as informações de acordo com os requisitos de proteção dos dados armazenados e processados ​​em cada aplicação?":[
+            "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
             "You know the type and sensitivity level of each identified data element",
             "You have controls to prevent propagation of unsanitized sensitive data from production to lower environments"
          ],
-         "Do you identify and remove systems, applications, application dependencies, or services that are no longer used, have reached end of life, or are no longer actively developed or supported?":[
-            "You do not use unsupported applications or dependencies",
+         "Você identifica e remove sistemas, aplicativos, dependências de aplicativos ou serviços que não são mais usados, chegaram ao fim de sya vida útil ou que não são mais desenvolvidos ou suportados ativamente?":[
+            "Você não usa aplicativos ou dependências sem suporte",
             "You manage customer/user migration from older versions for each product and customer/user group"
          ],
-         "Do you maintain a data catalog, including types, sensitivity levels, and processing and storage locations?":[
-            "The data catalog is stored in an accessible location",
+         "Você mantém um catálogo de dados, incluindo tipos, níveis de sensibilidade e locais de processamento e armazenamento?":[
+            "O catálogo de dados é armazenado em um local acessível",
             "You know which data elements are subject to specific regulation",
             "You have controls for protecting and preserving data throughout its lifetime",
             "You have retention requirements for data, and you destroy backups in a timely manner after the relevant retention period ends"
          ],
-         "Do you follow an established process for removing all associated resources, as part of decommissioning of unused systems, applications, application dependencies, or services?":[
-            "You document the status of support for all released versions of your products, in an accessible location",
+         "Você segue um processo estabelecido para remover todos os recursos associados, como parte do descomissionamento de sistemas, aplicativos, dependências de aplicativos ou serviços não utilizados?":[
+            "Você documenta o status do suporte para todas as versões lançadas de seus produtos, em um local acessível",
             "The process includes replacement or upgrade of third-party applications, or application dependencies, that have reached end of life",
             "Operating environments do not contain orphaned accounts, firewall rules, or other configuration artifacts"
          ],
-         "Do you regularly review and update the data catalog and your data protection policies and procedures?":[
-            "You have automated monitoring to detect attempted or actual violations of the Data Protection Policy",
+         "Você revisa e atualiza regularmente o catálogo de dados e suas políticas e procedimentos de proteção de dados?":[
+            "Você tem monitoramento automatizado para detectar violações (tentadas ou reais) da Política de Proteção de Dados",
             "You have tools for data loss prevention, access control and tracking, or anomalous behavior detection",
             "You periodically audit the operation of automated mechanisms, including backups and record deletions"
          ],
-         "Do you regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component, and estimate their end of life?":[
-            "Your end of life management process is agreed upon",
+         "Você avalia regularmente o estado do ciclo de vida e o status de suporte de cada ativo de software e componente de infraestrutura subjacente e estima seu fim de vida?":[
+            "Seu processo de gerenciamento de fim de vida é acordado",
             "You inform customers and user groups of product timelines to prevent disruption of service or support",
             "You review the process at least annually"
          ]

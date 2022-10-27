@@ -54,10 +54,10 @@ export default class assessmentCalculator{
                     }
                 }
             },
-            "Verification":{
+            "Verificação":{
                 "totalScore":0,
                 "practices":{
-                    "Architecture Assessment":{
+                    "Avaliação de Arquitetura":{
                         "answers": this.getAnswerMap(55),
                         "score":0
                     },
@@ -65,16 +65,16 @@ export default class assessmentCalculator{
                             "answers":this.getAnswerMap(61),
                             "score":0
                         },
-                    "Security Testing":{
+                    "Testes de segurança":{
                         "answers":this.getAnswerMap(67),
                         "score":0
                     }
                 }
             },
-            "Operations":{
+            "Operações":{
                 "totalScore":0,
                 "practices":{
-                    "Incident Management":{
+                    "Gestão de Incidentes":{
                         "answers": this.getAnswerMap(73),
                         "score":0
                     },
@@ -95,7 +95,7 @@ export default class assessmentCalculator{
             "Yes, for some":0,
             "Yes, for most": 0,
             "Yes, for all":0}
-        this.businessFunctionNames = ["Governança", "Design", "Implementation", "Verification", "Operations"]
+        this.businessFunctionNames = ["Governance", "Design", "Implementation", "Verificação", "Operações"]
         this.practiceNames = []
         this.businessFunctionScores = []
         this.practiceScores = []

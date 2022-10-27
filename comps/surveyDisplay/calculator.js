@@ -77,7 +77,7 @@ var allAnswersJSON = {
             score:0,
             panels:[
                 {
-                    name:"Architecture Assessment",
+                    name:"Avaliação de Arquitetura",
                     answers:[],
                     score:0
                 },
@@ -87,14 +87,14 @@ var allAnswersJSON = {
                     score:0
                 },
                 {
-                    name:"Security Testing",
+                    name:"Testes de segurança",
                     answers:[],
                     score:0
                 }
             ]
         },
         {
-            name:"Operations",
+            name:"Operações",
             score:0,
             panels:[
                 {
@@ -103,7 +103,7 @@ var allAnswersJSON = {
                     score:0
                 },
                 {
-                    name:"Incident Management",
+                    name:"Gestão de Incidentes",
                     answers:[],
                     score:0
                 },

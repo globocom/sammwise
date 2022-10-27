@@ -1,6 +1,6 @@
-import envman from "../surveypanels/operations/envman"
-import incman from "../surveypanels/operations/incman"
-import opman from "../surveypanels/operations/opman"
+import envman from "../surveypanels/Operações/envman"
+import incman from "../surveypanels/Operações/incman"
+import opman from "../surveypanels/Operações/opman"
 
 
 //Skeleton of the Page 
@@ -18,10 +18,10 @@ tosend.elements.push(incman())
 tosend.elements.push(envman())
 tosend.elements.push(opman())
 
-const operationsJSON = () => {
+const OperaçõesJSON = () => {
     return ( 
         tosend
      );
 }
  
-export default operationsJSON;
+export default OperaçõesJSON;

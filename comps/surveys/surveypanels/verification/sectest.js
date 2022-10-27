@@ -5,9 +5,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "bef645da8ccd477bbd10685dd52ad40e",
-        "title": "Do you scan applications with automated security testing tools?",
+        "title": "Você faz scans nas aplicações utilizando ferramentas automatizadas de teste de segurança?",
         "titleLocation": "left",
-        "description": "You dynamically generate inputs for security tests using automated tools",
+        "description": "Você gera dinamicamente entradas para testes de segurança usando ferramentas automatizadas",
         "choices": [
           {
             "value": 0,
@@ -34,9 +34,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "c013b6f9d973425cb63f21f4f8b84c30",
-        "title": "Do you customize the automated security tools to your applications and technology stacks?",
+        "title": "Você personaliza as ferramentas de segurança automatizadas para seus aplicativos e pilhas de tecnologia?",
         "titleLocation": "left",
-        "description": "You tune and select tool features which match your application or technology stack",
+        "description": "Você ajusta e seleciona os recursos da ferramenta que correspondem a sua aplicação ou pilha de tecnologia",
         "choices": [
           {
             "value": 0,
@@ -63,9 +63,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "009a8fafe5dd41889947a6b2c6769bbe",
-        "title": "Do you integrate automated security testing into the build and deploy process?",
+        "title": "Você integra testes de segurança automatizados nos processos de build  e implantação?",
         "titleLocation": "left",
-        "description": "Management and business stakeholders track and review test results throughout the development cycle",
+        "description": "A gerência e as partes interessadas rastreiam e revisam os resultados dos testes ao longo do ciclo de desenvolvimento",
         "choices": [
           {
             "value": 0,
@@ -92,9 +92,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "77dd81adf35f43608408e548c4972136",
-        "title": "Do you manually review the security quality of selected high-risk components?",
+        "title": "Você revisa manualmente a qualidade de segurança de componentes de alto risco selecionados?",
         "titleLocation": "left",
-        "description": "Criteria exist to help the reviewer focus on high-risk components",
+        "description": "Existem critérios para ajudar o revisor a se concentrar em componentes de alto risco",
         "choices": [
           {
             "value": 0,
@@ -121,9 +121,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "9a2af155ba424edfb321aa7592a09ed5",
-        "title": "Do you perform penetration testing for your applications at regular intervals?",
+        "title": "Você realiza pentests para seus aplicativos em intervalos regulares?",
         "titleLocation": "left",
-        "description": "Penetration testing uses application-specific security test cases to evaluate security",
+        "description": "Os pentests usam casos de teste de segurança específicos da aplicação",
         "choices": [
           {
             "value": 0,
@@ -150,9 +150,9 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "b73bf8f0462340659e252e6471c6e831",
-        "title": "Do you use the results of security testing to improve the development lifecycle?",
+        "title": "Você usa os resultados dos testes de segurança para melhorar o ciclo de vida do desenvolvimento?",
         "titleLocation": "left",
-        "description": "You use results from other security activities to improve integrated security testing during development",
+        "description": "Você usa os resultados de outras atividades de segurança para melhorar os testes de segurança integrados durante o desenvolvimento",
         "choices": [
           {
             "value": 0,
