@@ -36,7 +36,7 @@ const reqtest = () => {return ({
         "id": "d6b26a63243d4142bd2a8317e2875a03",
         "title": "Você escreve e executa consistentemente scripts de teste para verificar a funcionalidade dos requisitos de segurança?",
         "titleLocation": "left",
-        "description": "You tailor tests to each application and assert expected security functionality",
+        "description": "Você faz testes sob medida para cada aplicação e verfica as funcionalidades de segurança esperadas",
         "choices": [
           {
             "value": 0,

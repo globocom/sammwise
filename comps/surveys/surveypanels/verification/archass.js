@@ -92,7 +92,7 @@ const archass = () => {return ({
       {
         "type": "radiogroup",
         "id": "b920062a62d84883af0c167955ec10de",
-        "title": "Você revisa a arquitetura de aplicação para mitigação de ameaças típicas em uma base ad-hoc?",
+        "title": "Você revisa a arquitetura de aplicação para mitigação de ameaças típicas quando necessário?",
         "titleLocation": "left",
         "description": "Voce tem um modelo geral de arquitetura de referência para aplicações?",
         "choices": [
@@ -150,7 +150,7 @@ const archass = () => {return ({
       {
         "type": "radiogroup",
         "id": "df317b6ac5de4815a1ba7ac558d0263e",
-        "title": "Do you regularly update your reference architectures based on Avaliação de Arquitetura findings?",
+        "title": "Você atualiza regularmente suas arquiteturas de referência com base nas descobertas da avaliação de arquitetura??",
         "titleLocation": "left",
         "description": "Você avalia suas arquiteturas de maneira padronizada e documentada",
         "choices": [

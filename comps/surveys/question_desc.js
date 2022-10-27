@@ -300,7 +300,7 @@ const question_desc = ()=>{
             "You verify the correct provision of general security mechanisms",
             "You log missing security controls as defects"
          ],
-         "Você revisa a arquitetura de aplicação para mitigação de ameaças típicas em uma base ad-hoc?":[
+         "Você revisa a arquitetura de aplicação para mitigação de ameaças típicas quando necessário?":[
             "Voce tem um modelo geral de arquitetura de referência para aplicações?",
             "Security savvy staff conduct the review",
             "You consider different types of threats, including insider and data-related one"
@@ -338,7 +338,7 @@ const question_desc = ()=>{
             "You record and inspect all application crashes for security impact on a best-effort basis"
          ],
          "Você escreve e executa consistentemente scripts de teste para verificar a funcionalidade dos requisitos de segurança?":[
-            "You tailor tests to each application and assert expected security functionality",
+            "Você faz testes sob medida para cada aplicação e verifica as funcionalidades de segurança esperadas",
             "You capture test results as a pass or fail condition",
             "Tests use a standardized framework or DSL"
          ],
@@ -365,8 +365,8 @@ const question_desc = ()=>{
             "Qualified personnel conduct reviews following documented guidelines",
             "You address findings in accordance with the organization's defect management policy"
          ],
-         "Você personaliza as ferramentas de segurança automatizadas para seus aplicativos e pilhas de tecnologia?":[
-            "Você ajusta e seleciona os recursos da ferramenta que correspondem a sua aplicação ou pilha de tecnologia",
+         "Você personaliza as ferramentas de segurança automatizadas para seus aplicativos e stacks de tecnologia?":[
+            "Você ajusta e seleciona os recursos da ferramenta que correspondem a sua aplicação ou stacks de tecnologia",
             "You minimize false positives by silencing or automatically filter irrelevant warnings or low probability findings",
             "You minimize false negatives by leverage tool extensions or DSLs to customize tools for your application or organizational standards"
          ],
@@ -446,7 +446,7 @@ const question_desc = ()=>{
             "You review and update the process based on feedback from the people who perform patching"
          ],
          "Você protege e trata as informações de acordo com os requisitos de proteção dos dados armazenados e processados ​​em cada aplicação?":[
-            "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
+            "Você conhece os elementos de dados processados ​​e armazenados por cada aplicação",
             "You know the type and sensitivity level of each identified data element",
             "You have controls to prevent propagation of unsanitized sensitive data from production to lower environments"
          ],
