@@ -37,7 +37,7 @@ export default class assessmentCalculator{
                     }
                 }
             },
-            "Implementation":{
+            "Implementação":{
                 "totalScore":0,
                 "practices":{
                     "Secure Build":{
@@ -95,7 +95,7 @@ export default class assessmentCalculator{
             "Yes, for some":0,
             "Yes, for most": 0,
             "Yes, for all":0}
-        this.businessFunctionNames = ["Governance", "Design", "Implementation", "Verificação", "Operações"]
+        this.businessFunctionNames = ["Governança", "Design", "Implementação", "Verificação", "Operações"]
         this.practiceNames = []
         this.businessFunctionScores = []
         this.practiceScores = []
@@ -157,7 +157,7 @@ export default class assessmentCalculator{
                     var lvl2 = (question_values[1] + question_values[4]) / 2
                     var lvl3 = (question_values[2] + question_values[5]) / 2
                     var score = lvl1 + lvl2 + lvl3;
-                    if (bussFunc === "Implementation"){
+                    if (bussFunc === "Implementação"){
                         console.log('practice',practice, 'score', score);
                     }
                     this.sammModel[bussFunc]["practices"][practice]["score"] = score

@@ -52,7 +52,7 @@ var allAnswersJSON = {
             ]
         },
         {
-            name:"Implementation",
+            name:"Implementação",
             score:0,
             panels:[
                 {

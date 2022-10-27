@@ -1,5 +1,5 @@
 var tosend = {
-  name: "Details",
+  name: "Detalhes",
   elements: [{
     
       "type": "text",

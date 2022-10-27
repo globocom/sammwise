@@ -97,7 +97,7 @@ const Mysurvey = (prop) => {
         }
         
         var userStateData = JSON.parse(sessionStorage.getItem('userState'));
-        if(navbar == "Details"){
+        if(navbar == "Detalhes"){
             setDetailsPage(true);
         }
 
@@ -162,7 +162,7 @@ const Mysurvey = (prop) => {
                     
                 }
                 else if(survey.currentPageNo == 1){
-                    pageName = "Implementation";
+                    pageName = "Implementação";
                 }
                 else if(survey.currentPageNo == 2){
                     pageName = "Verificação";
@@ -175,14 +175,14 @@ const Mysurvey = (prop) => {
                 else if(survey.currentPageNo == 4){
                     
                     
-                    pageName = "Details";
+                    pageName = "Detalhes";
                     setDetailsPage(true)
                     
                 }else if(survey.currentPageNo == 5){
                     
                     // setSurvey(survey);
                     // setDisplay(!display);
-                    pageName = "Details";
+                    pageName = "Detalhes";
                     setDetailsPage(true)
                     router.push('/results');
                     // survey.completeLastPage();
@@ -192,7 +192,7 @@ const Mysurvey = (prop) => {
                 }
             survey.currentPage = pageName; 
         }
-        if(pageName == "Details"){
+        if(pageName == "Detalhes"){
             setDetailsPage(true)
         } else{
             setDetailsPage(false)

@@ -25,12 +25,12 @@ const SurveyNav = (props) => {
 
     
 
-    const buttonState = [{name:"Governance",state:true},
+    const buttonState = [{name:"Governança",state:true},
                          {name:"Design", state:false},
-                         {name:"Implementation", state:false},
+                         {name:"Implementação", state:false},
                          {name:"Verificação", state:false},
                          {name:"Operações", state:false},
-                         {name:"Details", state:false}]
+                         {name:"Detalhes", state:false}]
 
     function updateButtonState(index){
         props.onClick(buttonState[index].name);
