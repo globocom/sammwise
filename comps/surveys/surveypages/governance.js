@@ -4,7 +4,7 @@ import strategyJSON from "../surveypanels/governance/strategy"
 
 //Skeleton of the Page 
 var tosend =  {
-    name: "Governança",
+    name: "Governance",
     elements: [{
          //Append later
     }

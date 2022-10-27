@@ -1,6 +1,6 @@
 const secarch = () => {return ({
     "type": "panel",
-    "name": "Security Architecture",
+    "name": "Arquitetura de segurança",
     "elements": [
       {
         "type": "radiogroup",
@@ -133,17 +133,17 @@ const secarch = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some of the technology domains"
+            "text": "Sim, para alguns domínios de tecnologia"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the technology domains"
+            "text": "Sim, para pelo menos metade dos domínios de tecnologia"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the technology domains"
+            "text": "Sim, para a maioria ou todos os domínios de tecnologia"
           }
         ]
       },
@@ -177,7 +177,7 @@ const secarch = () => {return ({
         ]
       }
     ],
-    "title": "Security Architecture",
+    "title": "Arquitetura de segurança",
     "state": "collapsed"
   });}
 export default secarch;

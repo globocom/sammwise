@@ -92,7 +92,7 @@ const secrequirement = () => {return ({
       {
         "type": "radiogroup",
         "id": "795e7ddd03f2443c851e34fc6e023d71",
-        "title": "Os stakeholders revisão as colaborações de fornecedores externos para os requisitos de segurança e sua metodologia?",
+        "title": "Os stakeholders analisam as colaborações de fornecedores para requisitos e metodologia de segurança?",
         "titleLocation": "left",
         "description": "Vocês consideram incluir requisitos de segurança específicos, atividades e processos ao criar contratos com fornecedores externos",
         "choices": [
