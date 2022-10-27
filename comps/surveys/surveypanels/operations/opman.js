@@ -7,7 +7,7 @@ const opman = () => {return ({
         "id": "41b0c2ab37774000b2b81077605bbd93",
         "title": "Você protege e trata as informações de acordo com os requisitos de proteção dos dados armazenados e processados ​​em cada aplicação?",
         "titleLocation": "left",
-        "description": "Você conhece os elementos de dados processados ​​e armazenados por cada aplicativo",
+        "description": "Você conhece os elementos de dados processados ​​e armazenados por cada aplicação",
         "choices": [
           {
             "value": 0,
