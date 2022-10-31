@@ -497,11 +497,11 @@ const Mysurvey = (prop) => {
             <div className="pageNav">
                 {isDetailsPage?
                     <>
-                        <button className="NextPage" onClick={()=> changePage("next")}> Complete </button>
+                        <button className="NextPage" onClick={()=> changePage("next")}> Completar </button>
                     </>
                 :
                 <>
-                        <button className="NextPage" onClick={()=> changePage("next")}> Next Page </button>
+                        <button className="NextPage" onClick={()=> changePage("next")}> Próxima página </button>
                 </>       
                 }
             </div>

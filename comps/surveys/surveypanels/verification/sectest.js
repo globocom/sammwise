@@ -1,6 +1,6 @@
 const sectest = () => {return ({
     "type": "panel",
-    "name": "Security Testing",
+    "name": "Testes de Segurança",
     "elements": [
       {
         "type": "radiogroup",
@@ -63,7 +63,7 @@ const sectest = () => {return ({
       {
         "type": "radiogroup",
         "id": "009a8fafe5dd41889947a6b2c6769bbe",
-        "title": "Você integra testes de segurança automatizados nos processos de build  e implantação?",
+        "title": "Você integra testes de segurança automatizados nos processos de build e implantação?",
         "titleLocation": "left",
         "description": "A gerência e as partes interessadas rastreiam e revisam os resultados dos testes ao longo do ciclo de desenvolvimento",
         "choices": [
@@ -75,17 +75,17 @@ const sectest = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, some of it"
+            "text": "Sim, alguns"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, at least half of it"
+            "text": "Sim, pelo menos da metade"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, most or all of it"
+            "text": "Sim, da maioria ou de todos"
           }
         ]
       },
@@ -104,17 +104,17 @@ const sectest = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
@@ -162,22 +162,22 @@ const sectest = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, but we improve it ad-hoc"
+            "text": "Sim, mas melhoramos ocasionalmente"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, we we improve it at regular times"
+            "text": "Sim, melhoramos periodicamente"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, we improve it at least annually"
+            "text": "Sim, melhoramos pelo menos uma vez por ano"
           }
         ]
       }
     ],
-    "title": "Security Testing",
+    "title": "Testes de Segurança",
     "state": "collapsed"
   });}
 export default sectest;

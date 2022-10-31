@@ -19,7 +19,7 @@ export default function Home() {
       var currentPageName = 'homePage';
       userState[page] = currentPageName;
       userState[page_boolean] = true;
-      var navbarState = 'Governance';
+      var navbarState = 'Governança';
       sessionStorage.setItem('userState', JSON.stringify(userState));
       sessionStorage.setItem('navbarState', navbarState);
     } else{

@@ -104,17 +104,17 @@ const incman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some incidents"
+            "text": "Sim, alguns incidentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the incidents"
+            "text": "Sim, mais da metade dos incidentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the incidents"
+            "text": "Sim, a maioria ou todos os incidentes"
           }
         ]
       },
@@ -133,17 +133,17 @@ const incman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some incident types"
+            "text": "Sim, para alguns tipos de incidente"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the incident types"
+            "text": "Sim, para pelo menos metade dos tipos de incidente"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the incident types"
+            "text": "Sim, para a maioria ou todos os tipos de incidente"
           }
         ]
       },
