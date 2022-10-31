@@ -5,9 +5,9 @@ const envman = () => {return ({
       {
         "type": "radiogroup",
         "id": "1e005e11997f4929a12fdb939599e77e",
-        "title": "Do you harden configurations for key components of your technology stacks?",
+        "title": "Vocês fazem hardening nas configurações dos componentes chaves das suas stacks de tecnologia?",
         "titleLocation": "left",
-        "description": "You have identified the key components in each technology stack used",
+        "description": "Vocês identificaram os componentes chave em cada uma das stacks de tecnologia utilizadas",
         "choices": [
           {
             "value": 0,
@@ -17,26 +17,26 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "41d33402a94c49538554ce77e9de6a72",
-        "title": "Do you have hardening baselines for your components?",
+        "title": "Vocês possuem baselines de hardening para seus componentes?",
         "titleLocation": "left",
-        "description": "You have assigned an owner for each baseline",
+        "description": "Vocês definiram um dono para cada baseline",
         "choices": [
           {
             "value": 0,
@@ -46,26 +46,26 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "f4ec030280ee417099eaf12752a542ae",
-        "title": "Do you monitor and enforce conformity with hardening baselines?",
+        "title": "Você monitora e reforça a conformidade com os baselines de hardening?",
         "titleLocation": "left",
-        "description": "You perform conformity checks regularly, preferably using automation",
+        "description": "Vocês realizam checagens de conformidade periodicamente, preferencialmente usando automações",
         "choices": [
           {
             "value": 0,
@@ -75,26 +75,26 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "180e194b165d421c9d2c89258195a792",
-        "title": "Você identifica e corrige componentes vulneráveis?",
+        "title": "Vocês identificam e corrigem componentes vulneráveis?",
         "titleLocation": "left",
-        "description": "Você tem uma lista atualizada de componentes, incluindo informações de versão",
+        "description": "Vocês tem uma lista atualizada de componentes, incluindo informações de versão",
         "choices": [
           {
             "value": 0,
@@ -104,24 +104,24 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "0844b1a3be8b49ec83c7377a9f797cfc",
-        "title": "Você segue um processo estabelecido para atualizar componentes de sua stack de tecnologia?",
+        "title": "Vocês seguem um processo estabelecido para atualizar componentes de sua stack de tecnologia?",
         "titleLocation": "left",
         "description": "O processo inclui informações do fornecedor para patches de terceiros",
         "choices": [
@@ -133,26 +133,26 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       },
       {
         "type": "radiogroup",
         "id": "6e72179a31c04024bb649346bfb03eb5",
-        "title": "Você avalia regularmente os componentes e revisa o status do nível de correção?",
+        "title": "Vocês avaliam regularmente os componentes e revisa o status do nível de correção?",
         "titleLocation": "left",
-        "description": "Você atualiza a lista com componentes e suas versões",
+        "description": "Vocês atualizam a lista com componentes e suas versões",
         "choices": [
           {
             "value": 0,
@@ -162,17 +162,17 @@ const envman = () => {return ({
           {
             "value": 0.25,
             "weight": 1,
-            "text": "Yes, for some components"
+            "text": "Sim, para alguns componentes"
           },
           {
             "value": 0.5,
             "weight": 1,
-            "text": "Yes, for at least half of the components"
+            "text": "Sim, para pelo menos metade dos componentes"
           },
           {
             "value": 1,
             "weight": 1,
-            "text": "Yes, for most or all of the components"
+            "text": "Sim, para a maioria ou todos os componentes"
           }
         ]
       }

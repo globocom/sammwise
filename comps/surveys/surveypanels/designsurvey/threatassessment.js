@@ -1,6 +1,6 @@
 const threatassessment = () => {return ({
     "type": "panel",
-    "name": "Avaliação de ameaças",
+    "name": "Avaliação de Ameaças",
     "elements": [
       {
         "type": "radiogroup",
@@ -177,7 +177,7 @@ const threatassessment = () => {return ({
         ]
       }
     ],
-    "title": "Avaliação de ameaças",
+    "title": "Avaliação de Ameaças",
     "state": "expanded"
   });}
 export default threatassessment;

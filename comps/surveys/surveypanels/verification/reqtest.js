@@ -1,6 +1,6 @@
 const reqtest = () => {return ({
     "type": "panel",
-    "name": "Testes baseados em requisitos",
+    "name": "Testes Baseados em Requisitos",
     "elements": [
       {
         "type": "radiogroup",
@@ -177,7 +177,7 @@ const reqtest = () => {return ({
         ]
       }
     ],
-    "title": "Testes baseados em requisitos",
+    "title": "Testes Baseados em Requisitos",
     "state": "collapsed"
   });}
 export default reqtest;
